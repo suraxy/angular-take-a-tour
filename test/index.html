@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>take a tour</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<!--初始take-a-tour -->
+<body ng-app='tour' ng-tour>  
+
+
+<div class="item1" tour-step=1 link="tour/1.html" pos='N'><a href="">item 1</a></div>
+<!--
+tour-step:就是step啦
+link:是详细解说小页面
+pos：是方位  上北下南  组成八个方位  额，大概旋转方式和你的头一样
+     取值 : N , S, W, E  的组合 总共八个方位
+-->
+
+<div class="item2"><a href="">item 2</a></div>
+<div class="item3"><a href="">item 3</a></div>
+<div class="item4"><a href="">item 4</a></div>
+<div class="item5"><a href="">item 5</a></div>
+<div class="item6"><a href="">item 6</a></div>
+<div class="item7"><a href="">item 7</a></div>
+<div class="item8"><a href="">item 8</a></div>
+<div class="item9"><a href="">item 9</a></div>
+<div class="item10"><a href="">item 10</a></div>
+
+<script type="text/javascript" src="../lib/jquery.js"></script>
+<script type="text/javascript" src="../lib/angular.js"></script>
+<script type="text/javascript" src="../src/angular-take-a-tour.js"></script>
+</body>
+</html>
