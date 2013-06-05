@@ -1,0 +1,57 @@
+.tour-wrapper{
+		
+			z-index: 10000;
+			width: 300px;
+			margin-top: 20px;
+			position: absolute;
+		}
+
+	.touringMask{
+	        position:fixed;
+	        left:0;
+	        top:0;
+	        width:100%;
+	        height:100%;
+	        z-index:1000;
+	        background-color:rgba(0, 0, 0, 0.63);
+	    }
+
+		.tour-wrapper a{
+			text-decoration: none;
+		}
+
+		.close-tip{
+			color: red !important;
+			font-family: Verdana, sans-serif;
+			font-size: 14px;
+			font-weight: bold;
+			text-decoration:none;
+			margin-top: -16px;
+			float: right;
+		}
+
+		.tour-link{
+			float: none;
+		}
+
+		.tour-content{
+			background:  #eee;
+		}
+
+		.tour-btn{
+			width: 100px;
+			height: 30px;
+			line-height: 30px;
+			font-size: 18px;
+			color: lightbule;
+		}
+
+		.tour-btn .prev{
+			cursor: pointer;
+			float: left;
+		}
+
+		.tour-btn .next{
+			cursor: pointer;
+			float: right;
+		}
